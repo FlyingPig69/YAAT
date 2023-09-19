@@ -7,6 +7,7 @@
 # ------
 #  by Flying_Pig69
 #  Open Source, free to use and modify by anyone! You don't even need to give credit (although it would be nice :p)
+#  If you use this....feel free to add 9fLYPigGHXkTyyQvU9zzoT3RTAXJ4dfHjbkg6ik2fHKKxjprSrh to your aidrop list :)
 
 import csv
 import time
