@@ -1,10 +1,12 @@
-# YAAT - Massive Version
-# Yet Another Aidrop Tool
-# -----
-#Use YAAT to distribute tokens to a MASSIVE number of addresses (limit is, but larger than you will ever need!)
-## ------
-# by Flying_Pig69
-# Open Source, free to use and modify by anyone! You don't even need to give credit (although it would be nice :p)
+#  YAAT - Massive Version
+#  Yet Another Aidrop Tool
+#  -----
+# Use YAAT to distribute tokens to a MASSIVE number of addresses from a csv file.
+# It overcomes the TX limit (approx 2000 outputs) by splitting the list into chunks (configurable) and sending sequentially. 
+# 
+# ------
+#  by Flying_Pig69
+#  Open Source, free to use and modify by anyone! You don't even need to give credit (although it would be nice :p)
 
 import csv
 import time
