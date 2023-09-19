@@ -24,7 +24,7 @@ See sample.csv
 3. Token_Amount - Amount of token
 4. Erg_amount - amount of erg to send. For each address you are sending to this will be the input required. Min seems to be 0.00004
 
-You can send different tokens to the same address as long as it's on a different row. 
+You can send different tokens to the same address as long as it's on a separate row. 
 
 **Step 2**
 
