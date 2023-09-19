@@ -1,4 +1,4 @@
-# YAAT
+# YAAT - Massive Version
 Yet Another Airdrop Tool - Massive version. For airdropping tokens to large amount addresses on the Ergo Blockchain with minimum fees
 If aidropping to thousands of records it supports splitting the drop into x number of parts. Each will be submitted sequentially once the previous has been confirmed by the blockchain
 
