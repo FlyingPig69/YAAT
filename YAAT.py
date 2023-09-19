@@ -20,7 +20,7 @@ input_file = 'aidrop.csv' # name of your csv file. Place in same folder as this 
 node_url = "http://213.239.193.208:9053/" # Node
 wallet_mnemonic = "YOUR SEED PHRASE HERE" # your wallet seed phrase
 batch_size = 2000 # number of transactions/outputs per batch. This will split your list file into x parts. Useful for LAARGE airdrops. 2000 seems to be the limit (93kb, 96kb being limit).
-confirmations = 1 # no of blocks to wait before processing next batch after previous batch was confirmed. If left 0 it will send the next transactions immediately when the previous has been confirmed. I reccommend leaving at 1...just in case.
+confirmations = 1 # no of blocks to wait before processing next batch after previous batch was confirmed. If et to 0 it will send the next transactions immediately when the previous has been confirmed. I reccommend leaving at 1...just in case.
 miner_fee = 0.0012 # miner fee, set higher for larger txs to ensure it's not stuck for a number of blocks....
 
 
