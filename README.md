@@ -1,6 +1,11 @@
 # YAAT - Massive Version
-Yet Another Airdrop Tool - Massive version. For airdropping tokens to large amount addresses on the Ergo Blockchain with minimum fees
-If aidropping to thousands of records it supports splitting the drop into x number of parts. Each will be submitted sequentially once the previous has been confirmed by the blockchain
+Yet Another Airdrop Tool - Massive version. 
+
+For airdropping tokens to large number of addresses on the Ergo Blockchain with minimum fees.
+
+For example: This tool was used to distribute $lambo tokens to 65,000 addresses at the low low fee of 2.65 ERG (Transaction fees...there are no fees for using YAAT).
+
+If airdropping to thousands of records it supports splitting the drop into several parts. Each will be submitted sequentially once the previous has been confirmed by the blockchain
 
 # Requirements
 Requires Ergpy (by mgpai)
