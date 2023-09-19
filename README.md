@@ -8,7 +8,10 @@ https://github.com/mgpai22/ergpy
 
 # Usage
 
-Create a CSV file containing your aidrop list and 4 columns. See sample.csv
+Create a CSV file containing your aidrop list and 4 columns and lace in same folder as YAAT.py.
+
+See sample.csv
+
 
 **Step 1**
 1. Address - recipient address
@@ -19,6 +22,8 @@ Create a CSV file containing your aidrop list and 4 columns. See sample.csv
 You can send different tokens to the same address as long as it's on a different row. 
 
 **Step 2**
+
+Open YAAT.py in your python editor of choice.
 
 Edit config:
 
