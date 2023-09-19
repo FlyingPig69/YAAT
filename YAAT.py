@@ -40,8 +40,7 @@ def unconfirmed():
         "accept": "application/json",
         "Content-Type": "application/json"
     }
-    address = wallet_address
-    get_ergtree=(node_url+"script/addressToTree/"+address)
+    get_ergtree=(node_url+"script/addressToTree/"+wallet_address)
 
     # get ergotree from address
     response = requests.get(get_ergtree)
