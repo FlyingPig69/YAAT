@@ -130,12 +130,11 @@ for addresses in addresses:
                                       receiver_addresses=receiver_address, tokens=tokens, fee=miner_fee,
                                       wallet_mnemonic=wallet_mnemonic)
 
-    #wait 15 seconds for transaction to propogate
-    time.sleep(15)
+    time.sleep(2)
 
     #if confirmations has been enabled, will wait x blocks until processing next batch.
     block_height = get_height()
-    print("Submitted at height: ", block_height)
+    print("Submitted at height: ", block_height, "Transaction ID:", output_main)
     no_submitted += 1
     next_height = block_height + confirmations
 
