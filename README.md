@@ -25,19 +25,19 @@ You can send different tokens to the same address as long as it's on a different
 
 Open YAAT.py in your python editor of choice.
 
-Edit config:
+Edit config section.
 
-* input_file = 'aidrop.csv'                   name of your csv file. Place in same folder as this python script. Column order: (address, token_id, token_amount,erg_amount)
+* **input_file**           
+Name of your csv file. Place in same folder as this python script. Column order: (address, token_id, token_amount,erg_amount)
 
-* node_url = "http://213.239.193.208:9053/"   Node
+* **wallet_mnemonic**    
+Your wallet seed phrase
 
-* wallet_mnemonic = "YOUR SEED PHRASE HERE"   Your wallet seed phrase
+* **batch_size**        
+Number of transactions/outputs per batch. This will split your list file into x parts. Useful for LAARGE airdrops. 2000 seems to be the limit for 1 token (93kb, 96kb being limit). So if you're sending to 4000 addresses YAAT will create and send 4 transactions sequentially.
 
-* batch_size = 1                              Number of transactions/outputs per batch. This will split your list file into x parts. Useful for LAARGE airdrops. 2000 seems to be the limit for 1 token (93kb, 96kb being limit).
-
-* confirmations = 1                           Number of blocks to wait before processing next batch after previous batch was confirmed.
-
-* miner_fee = 0.0012                          Miner fee, set higher for larger txs to ensure it's not stuck for a number of blocks....
+* **confirmations**      
+Number of blocks to wait before processing next batch after previous batch was confirmed. You can set to 0 since it will not send next transaction until previous is confirmed, but I reccommend leaving at default 1. Just incase....
 
 
 **Step 3**
