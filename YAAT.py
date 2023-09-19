@@ -16,7 +16,7 @@ from ergpy import appkit
 from ergpy import helper_functions
 
 #config items
-input_file = 'aidrop.csv' # name of your csv file. Place in same folder as this python script. Column order: (address,	token_id, token_amount,erg_amount).
+input_file = 'aidrop.csv' # name of your csv file. Place in same folder as this python script. Column order: (address,	token_id, token_amount,erg_amount). Min ERg amount seems to be 0.00004
 node_url = "http://213.239.193.208:9053/" # Node
 wallet_mnemonic = "YOUR SEED PHRASE HERE" # your wallet seed phrase
 batch_size = 2000 # number of transactions/outputs per batch. This will split your list file into x parts. Useful for LAARGE airdrops. 2000 seems to be the limit for 1 token (93kb, 96kb being limit).
